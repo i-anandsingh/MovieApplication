@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.movie.details.MovieTimestampApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-31T06:27:44" hostname="192.168.1.8" time="0.854">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.movie.details.MovieTimestampApplicationTests" time="0.854"/>
+  <system-out><![CDATA[11:57:41.115 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.movie.details.MovieTimestampApplicationTests]: MovieTimestampApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:57:41.221 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.movie.details.MovieTimestampApplication for test class com.movie.details.MovieTimestampApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2023-12-31T11:57:41.684+05:30  INFO 1632 --- [    Test worker] c.m.d.MovieTimestampApplicationTests     : Starting MovieTimestampApplicationTests using Java 20.0.2.1 with PID 1632 (started by anandsingh in /Users/anandsingh/Desktop/Projects/demo)
+2023-12-31T11:57:41.685+05:30  INFO 1632 --- [    Test worker] c.m.d.MovieTimestampApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2023-12-31T11:57:42.639+05:30  INFO 1632 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-12-31T11:57:42.658+05:30  INFO 1632 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 MongoDB repository interfaces.
+2023-12-31T11:57:43.664+05:30  INFO 1632 --- [    Test worker] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-12-31T11:57:43.719+05:30  INFO 1632 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:14}] to localhost:27017
+2023-12-31T11:57:43.730+05:30  INFO 1632 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[7, 0, 2]}, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6084792}
+2023-12-31T11:57:44.226+05:30  WARN 1632 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3e7dae76-b5ae-46b1-b30d-b48dea3f10d2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-31T11:57:44.347+05:30  INFO 1632 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@68e47e7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c00d406, org.springframework.security.web.context.SecurityContextHolderFilter@5e385b6f, org.springframework.security.web.header.HeaderWriterFilter@d969452, org.springframework.web.filter.CorsFilter@16ac4d3d, org.springframework.security.web.csrf.CsrfFilter@7c7ed72a, org.springframework.security.web.authentication.logout.LogoutFilter@aca2fc3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@62b0bf85, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@ca546a1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@559d19c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53e93fb7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45dde6ac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14ed7ddf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@719c1faf, org.springframework.security.web.access.ExceptionTranslationFilter@505d2bac, org.springframework.security.web.access.intercept.AuthorizationFilter@3b770d07]
+2023-12-31T11:57:44.434+05:30  INFO 1632 --- [    Test worker] c.m.d.MovieTimestampApplicationTests     : Started MovieTimestampApplicationTests in 3.059 seconds (process running for 4.572)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
