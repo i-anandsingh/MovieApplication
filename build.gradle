@@ -32,6 +32,11 @@ dependencies {
 	// mongoDB dependencies added
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb:2.6.0'
 	implementation 'org.mongodb:mongo-java-driver:3.12.7'
+	implementation 'org.hibernate.validator:hibernate-validator'
+	implementation 'org.mapstruct:mapstruct:1.4.2.Final'
+	annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
+	implementation 'io.springfox:springfox-swagger2:3.0.0'
+	implementation 'io.springfox:springfox-swagger-ui:3.0.0'
 
 }
 
